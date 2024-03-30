@@ -1,0 +1,12 @@
+[package]
+name = "share_sql_lib"
+version = "1.0.0"
+authors = ["hiroakifujii"]
+edition = "2021"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+[lib]
+crate-type = ["cdylib"]
+
+[dependencies]
+libc = "0.2.153"
